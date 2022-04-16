@@ -14,3 +14,6 @@ EX_04 - Passagem de parâmetros para a task
 EX_05 - Definindo o núcleo para execução da task
 
 EX_06 - Verificando o uso da Stack
+
+![image](https://user-images.githubusercontent.com/95059305/163687209-56607c23-6851-4b39-8804-7c4fe60461a9.png)
+
