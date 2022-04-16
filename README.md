@@ -1,6 +1,7 @@
 # FreeRTOS_Curso
 Aplicação do RTOS no ESP32 utilizando o FreeRTOS
 
+https://www.freertos.org/a00106.html
 
 EX_01 - Criando tasks no FreeRTOS
 
