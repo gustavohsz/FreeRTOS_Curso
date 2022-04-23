@@ -21,8 +21,14 @@ void vTaskTrataBT(void *pvParameters);
 
 void ISR_CallBack(){
 
-}
+    BaseType_t xHighPriorityTaskWoken = pdTRUE;
 
+    xSemaphoreGiveFromISR(semaforo, &xHighPriorityTaskWoken);
+
+    if(xHighPriorityTaskWoken == pdTRUE){
+      portYIELD_FROM_ISR();
+    }
+}
 
 void setup(){
 
@@ -43,22 +49,20 @@ void setup(){
 
 }
 
-//sincroniza o loop com vTaskADC após o LED piscar, então fazendo a leitura da entrada ADC
+
 void loop(){
-  digitalWrite(LED, !digitalRead(LED));
-  Serial.println("Valor do LED: " + String(digitalRead(LED)));
-  vTaskDelay(pdMS_TO_TICKS(1500));
-  xSemaphoreGive(xSemaphore);
+  digitalWrite(LED, HIGH);
+  vTaskDelay(pdMS_TO_TICKS(100));
+  digitalWrite(LED, LOW);
+  vTaskDelay(pdMS_TO_TICKS(1000));
 }
 
-void vtaskADC(void *pvParameters){
+void vTaskTrataBT(void *pvParameters){
 
-  int adcValue;
+  int contador = 0;
 
   while (1){
-    xSemaphoreTake(xSemaphore, portMAX_DELAY);
-    adcValue = analogRead(34);
-    Serial.println("Valor do ADC: " + String(adcValue));
-    Serial.println(" ");
+      xSemaphoreTake(semaforo, portMAX_DELAY); //só libera o semáforo quando o botão for pressionado, ou seja, quando huover a ISR
+      Serial.println("x: " + String(contador++));
   }
 }
