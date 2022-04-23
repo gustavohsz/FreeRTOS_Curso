@@ -19,7 +19,7 @@ EX_07 - Criação e leitura de Filas
 
 EX_08 - Enviar valores para a fila a partir de uma ISR
 
-EX_09 - 
+EX_09 - Semáforos binários
 
 EX_10 - 
 
