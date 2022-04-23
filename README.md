@@ -21,7 +21,7 @@ EX_08 - Enviar valores para a fila a partir de uma ISR
 
 EX_09 - Semáforos binários
 
-EX_10 - 
+EX_10 - Semáforos binários e ISR
 
 
 Estrutura RTOS:
