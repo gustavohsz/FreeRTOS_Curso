@@ -15,6 +15,8 @@ EX_05 - Definindo o núcleo para execução da task
 
 EX_06 - Verificando o uso da Stack
 
+EX_07 - Criação e leitura de Filas
+
 
 Estrutura RTOS:
 
