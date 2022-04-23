@@ -17,6 +17,12 @@ EX_06 - Verificando o uso da Stack
 
 EX_07 - Criação e leitura de Filas
 
+EX_08 - Enviar valores para a fila a partir de uma ISR
+
+EX_09 - 
+
+EX_10 - 
+
 
 Estrutura RTOS:
 
