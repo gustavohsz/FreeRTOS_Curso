@@ -23,6 +23,12 @@ EX_09 - Semáforos binários
 
 EX_10 - Semáforos binários e ISR
 
+EX_11 - 
+
+EX_12 - Software timers
+
+EX_13 - Grupo de eventos
+
 
 Estrutura RTOS:
 
