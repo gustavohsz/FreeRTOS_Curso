@@ -3,6 +3,8 @@ Aplicação do RTOS no ESP32 utilizando o FreeRTOS
 
 https://www.freertos.org/a00106.html
 
+Udemy - https://www.udemy.com/share/103ie43@0q6hqC6VpNYev4n1XBFy2ZVQFfX341YLPhojJwCX90reu3F2GlBrdMs-ozQkRm0h/
+
 EX_01 - Criando tasks no FreeRTOS
 
 EX_02 - Deletando Tasks
