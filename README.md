@@ -1,6 +1,5 @@
 # FreeRTOS_Curso
 
-******************************************************************
 
 Aplicação do RTOS no ESP32 utilizando o FreeRTOS
 
@@ -49,7 +48,7 @@ EX_13 - Grupo de eventos
 
 ## **Conceitos**
 
-******************************************************************
+
 
 ## **Estrutura RTOS:**
 
