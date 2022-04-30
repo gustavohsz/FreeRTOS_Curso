@@ -26,7 +26,7 @@ void setup() {
   Serial.begin(115200);
   
   
-  xTaskCreate(vTask1, "TASK1", configMINIMAL_STACK_SIZE, NULL, 1, &task1Handle);
+  xTaskCreate(vTask1, "TASK1", configMINIMAL_STACK_SIZE, NULL, 1, &task1Handle); // Nome da função da task - Nome descritivo da task - Stack da task - Parametros passados - Prioridade - Handle
   xTaskCreate(vTask2, "TASK2", configMINIMAL_STACK_SIZE+1024, NULL, 2, &task1Handle);
 }
 
@@ -34,8 +34,8 @@ void loop() {
   vTaskDelay(1000);
 }
 
-void vTask1(void *pvParameters){
-  pinMode(LED, OUTPUT);
+void vTask1(void *pvParameters){ // task 1 - pisca o LED
+  pinMode(LED, OUTPUT); 
   while (1)
   {
     digitalWrite(LED, !digitalRead(LED));
@@ -44,7 +44,7 @@ void vTask1(void *pvParameters){
   
 }
 
-void vTask2(void *pvParameters){
+void vTask2(void *pvParameters){ // task 2 - imprime no monitor serial
 
   int cont = 0;
 
