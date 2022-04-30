@@ -47,11 +47,15 @@ EX_13 - Grupo de eventos
 
 ******************************************************************
 
-Estrutura RTOS:
+## **Conceitos**
+
+******************************************************************
+
+## **Estrutura RTOS:**
 
 ![image](https://user-images.githubusercontent.com/95059305/163687209-56607c23-6851-4b39-8804-7c4fe60461a9.png)
 
-Queue
+## **Queue**
 
 ![image](https://user-images.githubusercontent.com/95059305/163687231-d71ccf13-d5b5-4302-a0e1-0a2582552d61.png)
 ![image](https://user-images.githubusercontent.com/95059305/163687236-0f01c460-b2bb-4cf3-b729-61f43b086bed.png)
