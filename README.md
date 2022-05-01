@@ -31,7 +31,7 @@ EX_09 - Semáforos binários
 
 EX_10 - Semáforos binários e ISR
 
-EX_11 - 
+EX_11 - Semáforo contador
 
 EX_12 - Software timers
 
