@@ -42,7 +42,7 @@ EX_13 - Grupo de eventos
 ## **PROJETOS**
 
 - 3 Tasks - aplicação de multitasks (projeto para - EX_01)
-- Sensor ultrassonico - aplicação de filas (projeto para - EX_07)
+- Sensor ultrassonico - aplicação de filas (projeto para - EX_07 e EX_03)
 
 ******************************************************************
 
